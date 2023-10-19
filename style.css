@@ -1,0 +1,47 @@
+header{
+    border: 1px solid black;
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+    
+}
+
+#caixa{
+    display: flex;
+    border: 1px solid green;
+    justify-content: center;
+    padding: 30px;
+    
+}
+
+button{
+    width: 30%;
+    height: 2rem;
+    margin: 10px;
+    border-radius:  10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+
+}
+
+#filtrar{
+    background-color: darkgreen;
+}
+
+
+#limpar{
+    background-color: darkred;
+}
+
+ #filtrar:hover{
+    background-color: #014d01;
+    color: rgb(246, 251, 255);
+}
+
+#limpar:hover{
+    background-color: rgb(161, 55, 55);
+}
